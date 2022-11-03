@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div p{
+            color: #4859ad;
+        }
+
+        span > h3{
+            color: rgb(90 136 170);
+        }
+        section+h4{
+            color: rgb(39 90 220);
+        }
+        footer ~ menu{
+            color: rgb(92, 56, 209);
+        }
+       
+        .nav{
+            margin: auto;
+            width: 500px;
+        }
+        body{
+            background-color: #9cb4c9;
+           
+        }
+        h1{
+            margin: 45px 0px 20px 100px;
+            font-size: 35px;
+            color: #405b8c;
+        }
+        img{
+            margin: 0px 0px 15px 0px;
+            border-radius: 10px;
+            box-shadow: -10px 15px 50px black;
+        }
+        mark{
+            font-size: 40px;
+            background-color:#2c4478;
+            color: aliceblue;
+            border-radius: 10px;
+            padding: 8px;
+            margin-left: 30px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <mark>CSS Combinator Selector</mark>
+
+        <div>
+            <h1>Descendant selector</h1>
+            <img src="d.jpg" alt="" style="height:300px; width:500px;">
+            <p style="font-size: 20px; text-align: justify;" >The descendant selector matches all elements that are descendants of a specified element</p>
+            <p style="font-size: 17px;" >Paragraph 1</p>
+            <p style="font-size: 17px;" >paragraph 2</p>
+        </div>
+        
+        <span>
+            <h1>Child selector</h1>
+            <img src="c.jpg" alt="" style="height:300px; width:500px;">
+            <h3 style="font-size: 20px;">The child selector selects all elements that are the children of a specified element.</h3>
+        </span>
+        
+        <h1>Adjacent Selector</h1>
+        <section>
+            <img src="a.jpg" alt="" style="height:300px; width:500px;" >
+            <header style="font-size: 20px;">The adjacent sibling selector is used to select an element that is directly after another specific element.
+                Sibling elements must have the same parent element, and "adjacent" means "immediately following".</header>
+</section>
+<h4 style="font-size: 18px;" >This is a Adjacent Selector 1</h4>
+<h4 style="font-size: 18px;" >This is a Adjacent Selector 2</h4>
+<h4 style="font-size: 18px;" >This is a Adjacent Selector 3 </h4>
+
+
+<h1>General sibling  Selector</h1>
+<footer>
+    <img src="G.webp" alt="" style="height:300px; width:500px;">
+    <menu style="font-size: 20px;">The general sibling selector selects all elements that are next siblings of a specified element.</menu>
+</footer>
+<menu style="font-size: 18px;" >General Silbing 1</menu>
+<menu style="font-size: 18px;" >General Silbing 2</menu>
+<menu style="font-size: 18px;" >General Silbing 3</menu>
+    </nav>
+</body>
+</html>

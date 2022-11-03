@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technolgy</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        nav{
+          display: grid;
+          grid-template-columns:repeat(auto-fit,minmax(200px,0fr ));
+          font-size: 30px;
+          background-image:linear-gradient(to right,#4c5d64,#406b7f, #2c4e50) ;
+          grid-gap: 28px;
+          place-content: center;
+          padding: 10px 0px;
+          position: sticky;
+          top: 0px;
+          
+          
+          
+        }
+        .link{
+            
+            text-decoration: none;
+            padding: 5px 0px 5px 10px;
+            color: aliceblue;
+            width: 105px;
+           }
+           .link:hover{
+            background-color: aliceblue;
+            color: black;
+            border-radius: 10px;
+           }
+           body{
+          /* background-image:linear-gradient(to right,#cae6f1,#54a4c9, #166b70) ; */
+          background-image: url("bg3.jpg");
+          background-size: cover;
+          background-attachment: fixed;
+           }
+           .li>img{
+            height: 250px;
+            width: 350px;
+            border-radius: 15px;
+            box-shadow: -7px 13px 25px black;
+        }
+        p{
+            height: fit-content;
+            width: 330px;
+            padding: 30px 0px 0px 0px;
+            text-align: justify;
+            font-size: 20px;
+           color: #184e58;
+            
+
+           }
+           .li{
+            display: grid;
+            grid-template-columns: repeat(2,minmax(400px,0fr));
+            margin: 65px 0px 0px 0px;
+            cursor: pointer;
+            text-decoration: none;
+           }
+           section{
+            display: grid;
+            place-content: center;
+            grid-gap: 30px;
+            }
+           
+          
+           
+
+    </style>
+</head>
+<body>
+    <nav><a href="#c2" id="c1" class="link" >Nodejs</a>
+        <a href="#c4" id="c3" class="link" >Angular</a>
+        <a href="#c6" id="c5" class="link" >Saas</a>
+        <a href="#c8" id="c7" class="link" >Less</a>
+        <a href="#c10" id="c9" class="link" >Json</a>
+    </nav>
+    <section>
+       
+            <a href="#c1" id="c2" class="li">
+                <img src="node.png" alt="">
+                <p>Node. js is primarily used for non-blocking, event-driven servers, due to its single-threaded nature. It's used for traditional web sites and back-end API services, but was designed with real-time, push-based architectures in mind.
+                </p>
+            </a>
+           
+       
+            <a href="#c3" id="c4" class="li">
+                <img src="angular.png" alt="">
+                <p>AngularJS is a structural framework for dynamic web apps. It lets you use HTML as your template language and lets you extend HTML's syntax to express your application's components clearly and succinctly. AngularJS's data binding and dependency injection eliminate much of the code you would otherwise have to write.</p>
+            </a>
+            
+             <a href="#c5" class="li" id="c6">
+                <img src="saas.jpeg" alt="">
+                <p>Software as a service (or SaaS) is a way of delivering applications over the Internet—as a service. Instead of installing and maintaining software, you simply access it via the Internet, freeing yourself from complex software and hardware management.</p>
+            </a>
+            
+       
+            <a href="#c7" class="li" id="c8">
+                <img src="less.png" alt="">
+                <p> An example of less used as a preposition is in the sentence, "Ten less seven is three," which means ten minus seven is three. Less is defined as to a smaller degree or amount. An example of less used as an adverb is in the sentence, "The shrimp is less tasty than the crab," which means that the crab tastes better.</p>
+            </a>
+           
+        
+            <a href="#c9" class="li" id="c10">
+                <img src="json.webp" alt="">
+                <p>JavaScript Object Notation, more commonly known by the acronym JSON, is an open data interchange format that is both human and machine-readable. Despite the name JavaScript Object Notation, JSON is independent of any programming language and is a common API output in a wide variety of applications.</p>
+            </a>
+            
+    </section>
+</body>
+</html>

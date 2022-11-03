@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        #scroll{
+            overflow: scroll;
+            width: 118px;
+            height: 100px;
+
+        }
+        body{
+            font-size: 20px;
+            background-color: #e9ebed;            
+        }
+        fieldset{
+            width: 230px;
+        }
+        form{
+            margin: auto;
+            width: 480px;
+            padding: 50px 0px 0px 170px;
+            background-color: #00538C;
+            color: white;
+            height: 600px;
+        }
+        .btn{
+            margin: 0px 0px 30px 75px;
+        }
+        h1{
+            margin: auto;
+            width: 480px;
+            padding: 10px 0px 10px 170px;
+            background-color:#00386b;
+            color: white;
+        
+        }
+        .bt{
+            color: black;
+            background-color:#29c874;
+            font-size: 15px;
+            cursor: pointer;
+            padding: 11px;
+            border-radius: 10px;
+            outline: none;
+            border: none;
+        
+        }
+        .bt:hover{
+            color: white;
+            background-color: #00386b;
+            cursor: pointer;
+            padding: 13px;
+        }
+        #area{
+            margin-top:4px ;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>Registration Form</h1>
+    <form action="#">
+          <label for="u" AccessKey="U"><u>U</u>sername:</label>
+        <input type="text" name="username" id="u"><br><br>
+
+        <label for="p" AccessKey="P"><u>P</u>assword:</label>&nbsp;
+        <input type="password" name="password" id="p"><br><br>
+
+        <fieldset>
+            <legend>Gender:</legend>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="male" checked id="f"> 
+                        <label for="f">Male</label>
+
+                        <input type="radio" name="male" id="m"> 
+                        <label for="m">Female</label>
+        </fieldset><br>
+
+        <label for="area">Crosspondence:</label>
+        <textarea name="" id="area" cols="15" rows="1"></textarea><br><br>
+
+        <label for="n">Pincode:</label>&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="number" name="pincode"><br><br>
+
+        <label for="c"> Mobile no:</label>
+        <input type="number" name="pincode"><br><br>
+
+        <label for="f">Certificate Attached:</label>
+        <input type="File" id="f"><br><br>
+         <span>Interset:</span>&nbsp;&nbsp;&nbsp;&nbsp;
+         <input type="checkbox" name="box" id="gym">
+         <label for="gym">Gym</label>
+         <input type="checkbox" name="box" id="pool">
+         <label for="pool">Pool</label><br><br>
+         <div class="btn">
+            <button class="bt">Submit</button> &nbsp;
+             <input type="reset" name="" class="bt">
+          </div>
+    </form>
+</body>
+</html>

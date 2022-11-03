@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        nav{
+           background-color: rgb(29, 50, 58);
+           color: aliceblue;
+           height: 36px;
+           font-size: 22px;
+           padding: 10px 0px 0px 32px;
+        }
+        .n{
+            /* width: 50px;
+            height: 100px; */
+            cursor: pointer;
+            padding: 62px 36px 8px 34px; 
+        }
+        .n:hover{
+            font-size: 26px;
+            background-color: black;
+            color: rgb(255, 255, 255);
+        }
+        header{
+            background-image: url("bg3.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            font-size: 120px;
+            white-space: pre;
+            color: #284a4a;
+            height: 440px;
+            padding-top: 30px;
+            z-index: 2;
+        }
+        
+        .box{
+            width: 220px;
+           height: 250px;
+           display: inline-block;
+           margin: 50px 50px 25px 50px;
+           border-radius: 15px;
+           
+        }
+        .cont{
+            height: 886px;
+            width: 1015px;
+            padding: 40px 0px 55px 40px;
+            border-right: 2px solid black;
+        }
+        section{
+            display: flex;
+            height: 800px;
+        }
+        .aside{
+            height: 700px;
+            width: 300px;
+            padding: 80px 75px 50px 82px;
+            animation-name: sec;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+            background-attachment: fixed;
+            z-index: 1;
+        }
+        /* @keyframes sec{
+            from{margin-top: 100%; }
+            to{margin-top: -27%; }
+           
+          
+        } */
+        .blog{height: 180px;
+            width: 170px;
+            margin: 16px 9px 0px 26px;
+            border-radius: 15px;
+            box-shadow: -7px 10px 25px black;
+        }
+        .blog:hover{
+                  height: 189px;
+                   width: 179px;
+                   cursor: pointer;
+
+           }
+           h3{
+            margin: 10px 70px;
+           font-size: 18px;
+           cursor: pointer;
+           }
+           h1{
+            margin: 0px 325px;
+            font-size: 30px;
+            background-color: #253f3f;
+            color: #cbfcec;
+            width: 270px;
+            padding: 10px 25px;
+            border-radius: 10px;
+           }
+           .clients{
+             margin: 20px 44px;
+            }
+            .cli{
+                height: 60px ;
+                width: 60px;
+                border-radius: 30px;
+                
+                
+                animation-name: c;
+                animation-timing-function: ease-in-out;
+                animation-iteration-count: infinite;
+                animation-duration: 2s;
+            }
+            @keyframes c{
+                from{  box-shadow: -10px 10px 25px black;}
+                to{  box-shadow: -7px 10px 25px rgb(226, 222, 222);}
+            }
+           footer{
+            display: flex;
+        
+           }
+          
+           h6{
+            font-size: 35px;
+            margin: 10px 440px;
+           }
+           .copy{
+            margin: 10px 600px;
+           }
+           .a{
+            height: 200px;
+            width: 300px;
+            margin: 40px 0px 0px 10px;
+            border-radius: 10px;
+            z-index: 1;
+           }
+           p{
+            text-align: justify;
+            width: 254px;
+            margin: 0px 0px 0px 33px;
+           }
+           h4{
+            margin: 0px 0px 0px 5px;
+           }
+          
+
+      
+    </style>
+</head>
+<body>
+    <nav>
+       <span class="n" >Home</span>
+       <span class="n" >Our Blog</span>
+       <span class="n" >About us</span>
+       <span class="n" >contact us</span>
+    </nav>
+    <header>    "Love 
+     recognizes 
+     No barriers" </header>
+   <section>
+    <div class="cont"><h1>Our Weddings Blogs</h1>
+        <div class="box"><img src="blog7.jpeg" alt="" class="blog">
+        <h3>Jalandhar</h3></div>
+        <div class="box"><img src="blog2.jpg" alt="" class="blog">
+        <h3>jodhpur</h3></div>
+        <div class="box"><img src="blog3.jpg" alt="" class="blog">
+        <h3>Ludhiana</h3></div>
+        <div class="box"><img src="blog4.jpg" alt="" class="blog">
+        <h3>Ferozpur</h3></div>
+        <div class="box"><img src="blog5.jpg" alt="" class="blog">
+        <h3>Lucknow</h3></div>
+        <div class="box"><img src="blog6.jpg" alt="" class="blog">
+        <h3>Amritsar</h3></div>
+       
+    </div>
+    <div>
+        <aside class="aside">
+            <div ><img src="blog1.jpeg" alt="" class="a">
+        <p>Away from the hustle bustle of the city of Mumbai, this couple chose a quaint venue in Igatpuri. Beautiful décor, fun moments and a whole lot of love - the wedding had everything that made it a memorable affair. </p></div>
+            <div><img src="blog5.jpg" alt="" class="a">
+        <p>Away from the hustle bustle of the city of Mumbai, this couple chose a quaint venue in Igatpuri. Beautiful décor, fun moments and a whole lot of love - the wedding had everything that made it a memorable affair. </p></div>
+            
+          
+         
+           
+        </aside>
+    </div>
+   </section>
+   <h6>Our clients</h6>
+   <footer>
+    <div class="clients">
+        <img src="harp.jpg" alt="" class="cli">
+        <h4 >Harp</h4>
+    </div>
+    <div class="clients">
+        <img src="cli2.jpeg" alt="" class="cli">
+        <h4 >Ishika</h4>
+    </div>
+    <div class="clients">
+        <img src="cli3.jpg" alt="" class="cli">
+        <h4 >Harman</h4>
+    </div>
+    <div class="clients">
+        <img src="cli4.jpg" alt="" class="cli">
+        <h4 >Raman</h4>
+    </div>
+    <div class="clients">
+        <img src="cli5.webp" alt="" class="cli">
+        <h4 >Gurpreet</h4>
+    </div>
+    <div class="clients">
+        <img src="cli6.jpg" alt="" class="cli">
+        <h4 >Ujjawal</h4>
+    </div>
+    <div class="clients">
+        <img src="Ammy.jpeg" alt="" class="cli">
+        <h4 >Ammy</h4>
+    </div>
+   </footer>
+   <hr>
+   <span class="copy">All rigths are reserved 2022&copy;</span>
+</body>
+</html>

@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>multi</title>
+    <style>
+        *{
+            margin: 0px ;
+            padding: 0px;
+        }
+        div{
+            display: none;
+        }
+           
+        span{
+                font-size: 18px;
+                padding: 15px 0px;
+        }
+        .one{
+    font-size: 22px;
+    font-weight: bolder;
+    background-color: #6f0606;
+    color: white;
+    width: fit-content;
+    padding: 17px 10px;
+    margin-left: 17px;
+}
+        nav{
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+        color: rgb(255, 255, 255);
+        background-color: #272323;
+        box-shadow:  -4px 15px 25px #121010;
+
+
+    }
+    .box-1,.box-2,.box-3{
+       margin: 35px 0px 0px 0px;
+    
+    }
+    
+        .box-1>img{width:190px ;
+            height: 200px;
+             box-shadow: -10px 10px 14px #43383b;
+            
+        }
+        .box-2>img{width:240px ;
+            height: 300px;
+             box-shadow: -7px 6px 40px #43383b;
+            
+        }
+        .box-3>img{width:320px ;
+            height: 370px;
+             box-shadow: -7px 6px 40px #43383b;
+
+        }
+       
+        .box-1>h3,.box-2>h3,.box-3>h3{
+            background-color: #6f0606;
+            color: aliceblue;
+            padding: 8px 8px; 
+            text-align: center;
+            margin-top: -6px;
+        }
+      
+        .box-1>h4,.box-2>h4,.box-3>h4{
+            background-color: #2b2424;
+            color: aliceblue;
+            text-align: center;
+            padding: 5px 8px;
+            margin-top: -4px;
+
+        }
+        button{margin: 0px 6px;}
+       
+        
+        @media screen and (max-width:380px){
+            .box-1{
+                display: block;
+            }
+            nav{
+                display: grid;
+            grid-template-columns: auto ;
+            }
+        }
+        @media screen and (max-width:759px)and (min-width:380px){
+            .box-2{
+                display: block;
+            }
+        }
+        @media screen and  (min-width:759px){
+            .box-3{
+                display: block;
+            }
+        }
+        .hindi{
+            margin: auto;
+            width: fit-content;
+        }
+        .south{
+          display: grid;
+          grid-template-columns: auto auto;
+          grid-gap: 18px;
+          margin:auto;
+          justify-content: space-around;
+        }
+        .punjabi{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            grid-gap: 28px;
+            justify-content: space-around;
+        }
+        body{
+            background-color: #3a4747;
+        }
+       
+    </style>
+</head>
+<body>
+    <nav>
+        <span class="one">Multiplex</span>
+        <span>Hindi Movies</span>
+        <span>Punjabi Movies</span>
+        <span>South Movies</span>
+          
+        </nav>
+        <section class="hindi">
+
+            <div class="box-1" >
+                <img src="hindi1.avif" alt="">
+    <h3>vikram vedha</h3>
+<h4>5 Oct 2022<button>Book Now</button></h4>
+</div>
+    <div class="box-1" ><img src="hindi2.avif" alt="">
+    <h3>Bramstra</h3>
+<h4>9:00am<button>Book Now</button></h4>
+</div>
+    <div class="box-1" ><img src="hindi3.avif" alt="">
+    <h3>PS-I</h3>
+<h4>12:00pm<button>Book Now</button></h4>
+</div>
+    <div class="box-1" ><img src="hindi4.avif" alt="">
+    <h3>Chup</h3>
+<h4>3:00pm<button>Book Now</button></h4>
+</div>
+    <div class="box-1" ><img src="hindi5.avif" alt="">
+    <h3>E-E-A-A</h3>
+    <h4>6:00pm<button>Book Now</button></h4>
+</div>
+<div class="box-1" ><img src="hindi6.avif" alt="">
+    <h3>Middle-Class Love</h3>
+    <h4>9:00pm<button>Book Now</button></h4>
+</div>
+</section>
+<section class="south">
+
+    <div class="box-2" >
+        <img src="tamil1.avif" alt="">
+        <h3>Rata</h3>
+        <h4>3:00pm<button>Book Now</button></h4>
+    </div>
+    <div class="box-2" >
+        <img src="tamil2.avif" alt="">
+        <h3>Preet Adhuri</h3>
+<h4>3:00pm<button>Book Now</button></h4>
+</div>
+    <div class="box-2" >
+        <img src="tamil3.avif" alt="">
+    <h3>Vikram</h3>
+<h4>3:00pm<button>Book Now</button></h4>
+</div>
+    <div class="box-2" >
+        <img src="tamil4.avif" alt="">
+    <h3>Rowdy Hero</h3>
+    <h4>3:00pm<button>Book Now</button></h4>
+</div>
+<div class="box-2" >
+    <img src="tamil5.avif" alt="">
+    <h3>Karthikeya</h3>
+    <h4>3:00pm<button>Book Now</button></h4>
+</div>
+<div class="box-2" >
+    <img src="tamil6.avif" alt="">
+    <h3>Charlie</h3>
+    <h4>3:00pm<button>Book Now</button></h4>
+</div>
+</section>
+<section class="punjabi">
+
+    <div class="box-3"> 
+        <img src="pun1.avif" alt="">
+        <h3> Maa Da Ladla</h3>
+        <h4>9:00pm  <button>Book Now</button></h4>
+</div>
+    <div class="box-3"> 
+    <img src="pun2.avif" alt="">
+    <h3>Mohh</h3>
+    <h4>12:00pm<button>Book Now</button></h4>
+</div>
+    <div class="box-3"> 
+    <img src="pun3.avif" alt="">
+    <h3>Yaar Milya Titliyan Varga</h3>
+    <h4>4:00pm<button>Book Now</button></h4>
+</div>
+    <div class="box-3"> 
+        <img src="pun4.avif" alt="">
+    <h3>criminal</h3>
+    <h4>4:00pm<button>Book Now</button></h4>
+</div>
+<div class="box-3"> 
+    <img src="pun5.jpg" alt="">
+    <h3>Long lachi 2</h3>
+    <h4>4:00pm<button>Book Now</button></h4>
+</div>
+<div class="box-3"> 
+    <img src="pun6.jpg" alt="">
+    <h3>Punjabiat</h3>
+    <h4>4:00pm  <button>Book Now</button></h4>
+</div>
+</section>
+</body>
+</html>

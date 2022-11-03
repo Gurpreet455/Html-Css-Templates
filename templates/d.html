@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>validate</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <style>
+        form {
+           
+            width: 300px;
+            margin: 150px 0px 0px 550px;
+            font-size: 20px;
+            opacity: 60%;
+            padding: 30px;
+            border-radius: 20px;
+            background-color: black;
+
+        }
+
+        button {
+            width: 70px;
+            margin: 8px 0px 0px 115px;
+            height: 30px;
+        }
+        body{
+            background-image: url("bb.jpg");
+        }
+        input,textarea{
+            color: rgb(237, 233, 233);
+            background-color: transparent;
+            outline: none;
+            border: none;
+            border-bottom: 2px solid rgb(255, 255, 255);
+            width: 250px;
+        }
+        i{
+            color: white;
+        }
+        h1{
+            margin:  0px 0px 35px 90px;
+            color: aliceblue;
+        }
+    
+    </style>
+</head>
+
+<body>
+
+    <form action="#">
+        <h1>Login</h1>
+
+        <label for="user"><i class="fa-solid fa-user"></i></label>
+        <input type="text" name="" id="user" placeholder="Username" required><br><br>
+        <label for="p"><i class="fa-solid fa-lock"></i></label>
+        <input type="password" name="" id="p" placeholder="Password" required><br><br>
+        <label for="Address"><i class="fa-solid fa-lock"></i></label>
+        <textarea name="" id="Address" cols="30" rows="2" placeholder="Address"></textarea>
+        <button>Submit</button>
+    </form>
+</body>
+
+</html>
